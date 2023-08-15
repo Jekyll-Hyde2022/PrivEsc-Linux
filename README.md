@@ -3,11 +3,18 @@ Atacando Linux - Escalada de privilegios
 
 #Enumeracion
 Herramientas utilizadas
- ./linux-exploit-suggester -h
+ ./[linux-exploit-suggester](/linux_exploit_suggester.sh) -h
  ./linux-exploit-suggester.sh --checksec
 
+ ./[linpeas.sh](/linpeas.sh) -h
  
+ ./[LinEnum.sh](/LinEnum.sh) -h
+ ./LinEnum.sh -e /tmp/ -t -s
 
+ ./[lse.sh](/lse.sh) -i 2
+
+
+ 
 #1 Kernel vulnerability
 Linux kernel 2.x through 4.x before 4.8.3
 
